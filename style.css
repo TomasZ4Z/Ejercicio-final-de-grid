@@ -153,9 +153,8 @@ height: 60px;
 grid-row: 2/4;
 grid-column: 2/3;    
 display: grid;
-grid-template: 50px repeat(3,170px)/ repeat(2,1fr);
+grid-template: 50px repeat(3,200px)/ repeat(2,1fr);
 gap: 30px;
-
 }
 
 .my-projects{
@@ -164,13 +163,11 @@ grid-column: 1/3;
 .square{
 display: flex;
 flex-direction: column;    
-height: 170px;
-width: 82%;    
+height: 200px;
 background-color: red;
-justify-self: center;
 border-radius: 10px;
-
 }
+
 
 .announcements{
 grid-row: 2/3;
