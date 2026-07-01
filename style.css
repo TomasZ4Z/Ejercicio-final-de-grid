@@ -221,3 +221,35 @@ font-size: 13px;
  grid-row: 3/4;
  grid-column: 3/4;   
 }
+
+.profile-picture{
+ width: 55px;
+ height: 70px;  
+ padding: 0px; 
+}
+
+.profile-picture1{
+ width: 55px;
+ height: 70px;   
+}
+
+.trending>div{
+display: grid;
+grid-template: 1fr 1fr/ 60px 1fr;
+margin: 5px;
+}
+
+.first-p{
+grid: 1 2/ 2 3;
+margin: 0px;
+align-self:flex-end ;
+}
+
+.second-p{
+grid-area: 2/2/3/3;  
+margin: 0px;  
+}
+
+.trending img{
+grid-area: 1/1/3/2;    
+}
